@@ -30,3 +30,28 @@ body{
 .Navegación-Principal{
     background-color: var(--secundario);
 }
+
+.contenedor {
+    width: 120rem;
+    /*margin-top:0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; */
+
+    /*margin: 0 auto 0 auto; Tomando las posiciones de in reloj*/
+    margin: 0 auto; /*El primer valor corresponde a top botom y el segundo valor corresponde a rigth y left */
+}
+
+.nav-bg{
+    background-color: var(--secundario);
+}
+
+.Navegación-Principal {
+    padding: 1rem;
+    
+}
+
+.Navegación-Principal a{
+    color: var(--blanco);
+    text-decoration: none;
+}
