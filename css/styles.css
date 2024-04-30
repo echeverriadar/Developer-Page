@@ -19,6 +19,9 @@ html {/*HACK PARA BOX MODEL*/
 
 body{
     font-size: 16px;
+    font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--gris)0%, var(--blanco)100%); /*Es un degradado o gradiente que se hace un cambio de blanco */
+    
 }
 h1{
     font-size: 3.8rem;
@@ -153,4 +156,18 @@ body{
     border-radius: .5rem; /*Esquinas rededondeadas*/
     width: 90%; /*ancho del boton*/
     text-align: center;/*Centra el texto del boton*/
+}
+@media (min-width: 768px){
+    .boton{
+        width: auto;
+    }
+}
+.sombra{
+    margin-top: 2rem;
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+-webkit-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+-moz-box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
 }
